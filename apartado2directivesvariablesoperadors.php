@@ -29,4 +29,12 @@ foreach( $array as $key => $value ){
     if ($month == 10) { echo '31'; }
     if ($month == 11) { echo '30'; }
     if ($month == 12) { echo '31'; }
+        
+    echo $yesterday("d.m.Y")
+    
+    echo date('Y-m-d', strtotime('last month'));
+        
+    echo date('Y-m-d',strtotime("last day of last month"));
+        
+    echo date('Y-M-D', strtotime(date('Y-m')." -1 month"));
 }
