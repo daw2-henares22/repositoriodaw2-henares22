@@ -34,7 +34,7 @@ foreach( $array as $key => $value ){
     
     echo date('Y-m-d', strtotime('last month'));
         
-    echo date('Y-m-d',strtotime("last day of last month"));
+    echo date('Y-m-d',strtotime("last day of month"));
         
     echo date('Y-M-D', strtotime(date('Y-m')." -1 month"));
 }
